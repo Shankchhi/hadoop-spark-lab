@@ -35,7 +35,7 @@ services:
       - SPARK_MODE=master
       - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
     ports:
-      - "8080:8080"
+      - "8082:8080"
       - "7077:7077"
     networks:
       - hadoop
